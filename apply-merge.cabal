@@ -31,7 +31,6 @@ source-repository head
 library
   exposed-modules:
       Data.List.ApplyMerge
-      Data.OrderedList
   other-modules:
       Data.List.ApplyMerge.IntSet
   hs-source-dirs:
@@ -41,7 +40,6 @@ library
       base >=4.16 && <4.17 || >=4.17 && <4.18 || >=4.18 && <4.19 || >=4.19 && <4.20
     , containers ==0.6.*
     , pqueue >=1.4 && <1.5 || >=1.5 && <1.6
-    , kan-extensions
   default-language: GHC2021
 
 test-suite apply-merge-tests
